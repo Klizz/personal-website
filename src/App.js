@@ -1,13 +1,9 @@
-
 import React from "react";
-import "materialize-css";
-import { Button, Card, Row, Col } from "react-materialize";
 
 function App() {
   return (
     <div>
       <section className="hero">
-
 
         <nav>
           <div className="nav-wrapper transparentBG">
@@ -20,9 +16,8 @@ function App() {
           </div>
         </nav>
 
-
         <div className="hero-inner">
-          <h1>Hola</h1>
+          <h1 className="main-line">Hola</h1>
         </div>
       </section>
       <div className="App container center-align">
@@ -35,3 +30,5 @@ function App() {
     </div>
   )
 }
+
+export default App;
