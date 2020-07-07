@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@material-ui/core": "^4.10.2",
-=======
->>>>>>> c607bb9d085cfdfbcf9be3b048d3e8c71a98cbef
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",

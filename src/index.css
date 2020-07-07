@@ -1,6 +1,5 @@
 
 #profile-pic {
-<<<<<<< HEAD
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -36,9 +35,7 @@
   background-color: rgba(0, 0, 0, 0.0);
   height: 50px;
   width: 100%;
-=======
   height: 500px;
   width: 500px;
   border-radius: 50%;
->>>>>>> c607bb9d085cfdfbcf9be3b048d3e8c71a98cbef
 }
