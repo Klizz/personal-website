@@ -15,10 +15,11 @@ function App() {
 
         <div className="hero-inner">
           <h1 className="main-line">Hola</h1>
+          <button className="btn">Click</button>
         </div>
       </section>
-      <div className="App container center-align">
-        <img src="./images/photo.jpg" alt="Karen Ibarra" id="profile-pic" />
+      <div className="content">
+        <div>
         <h1>Hola, soy Karen Ibarra</h1>
       </div>
       <p>
@@ -35,6 +36,7 @@ function App() {
         euismod et. Sed tempor, ante id congue viverra, metus magna semper quam,
         quis auctor erat massa a diam.
       </p>
+    </div>
     </div>
   );
 }

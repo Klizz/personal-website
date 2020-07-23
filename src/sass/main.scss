@@ -15,6 +15,20 @@ body {
   border-radius: 50%;
 }
 
+.btn {
+  background-color: $color-primary;
+  border: none;
+  height: 30px;
+  width: 100px;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 /* HERO SECTION */
 .hero {
   height: 100vh;
@@ -35,6 +49,7 @@ body {
 .hero-inner {
   width: 50%;
   margin-left: 30px;
+  text-align: right;
   color: $color-primary;
 }
 .main-line {
