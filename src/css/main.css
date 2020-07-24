@@ -9,16 +9,23 @@ body {
   border-radius: 50%; }
 
 .btn {
-  background-color: #E0AFA0;
-  border: none;
-  height: 30px;
-  width: 100px; }
+  background-color: transparent;
+  border: 2px solid #E0AFA0;
+  height: 40px;
+  width: 130px;
+  transition: 0.3s;
+  color: #FFF; }
+
+.btn:hover {
+  background-color: #E0AFA0; }
 
 .content {
   width: 70%;
   margin: auto;
   margin-top: 50px;
-  margin-bottom: 100px; }
+  margin-bottom: 200px;
+  height: 100%;
+  padding-bottom: 100px; }
 
 /* HERO SECTION */
 .hero {
@@ -53,14 +60,25 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px; }
+  font-size: 17px;
+  transition: 0.3s; }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: transparent;
-  border-bottom: 3px solid #E0AFA0; }
+  background-color: #E0AFA0; }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: transparent;
   border-bottom: 3px solid black; }
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s; }
+
+.left {
+  width: 30%;
+  float: left; }
+
+.right {
+  width: 70%;
+  float: right; }
