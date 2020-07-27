@@ -3,18 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Es from "./pages/es";
 import En from "./pages/en";
 import Home from "./pages/home";
-/* import React from "react";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Movie from "./pages/Movie";
-import NotFound from "./pages/NotFound";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./style.css"; */
-
 
 function App() {
   return (
     <div>
+      <Navbar />
       <div>
         <Router>
           <Switch>

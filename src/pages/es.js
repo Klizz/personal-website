@@ -5,17 +5,6 @@ class Es extends Component {
         return(
             <div>
       <section className="hero">
-        <nav>
-          <div class="topnav">
-            <a class="active" href="#home">
-              Home
-            </a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-          </div>
-        </nav>
-
         <div className="hero-inner">
           <h1 className="main-line animate__animated animate__fadeIn">
             Bienvenido a mi sitio web
