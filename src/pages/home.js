@@ -5,23 +5,21 @@ import Fab from "@material-ui/core/Fab";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="centered-box centered-content content">
         <h1>Choose your language</h1>
-        <Button variant="contained" color="primary">
-          Primary
-        </Button>
         <a href="/es">
           <img
             src="https://image.flaticon.com/icons/svg/197/197397.svg"
             alt="Mexico"
-            height="100px"
+            height="250px"
+            className="right-space centered-content"
           />
         </a>
         <a href="/en">
           <img
             src="https://image.flaticon.com/icons/svg/323/323310.svg"
             alt="US"
-            height="100px"
+            height="250px"
           />
         </a>
       </div>

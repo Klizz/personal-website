@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-box {
+    margin: auto;
+}
+
+.content {
+    width: 70%;
+}
+
+.right-space {
+    margin-right: 25px;
+}
