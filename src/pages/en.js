@@ -1,22 +1,20 @@
 import React, { Component } from "react";
+import Button from '@material-ui/core/Button';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 class En extends Component {
   render() {
     return (
-      <div className="centered-box content">
-        <section className="hero">
-          <div className="hero-inner">
-            <h1 className="main-line animate__animated animate__fadeIn">
-              Welcome to my website
-            </h1>
-            <h2 className="main-line animate__animated animate__fadeIn">
-              My name is Karen
-            </h2>
-            <button className="btn animate__animated animate__fadeIn">
-              Click
-            </button>
-          </div>
+      <div>
+      <div>
+        <section className="fullscreen hero">
+          <h1>Hello, my name is Karen</h1>
+          <h3>Im a Web Developer Jr.</h3>
+          <a href="mailto:klizzy@hotmail.es"><Button variant="outlined">Contacto</Button></a>
+          <KeyboardArrowDownIcon />
         </section>
+        </div>
+        <div className="centered-box content">
         <div className="content">
           <div className="left">
             <img
@@ -27,11 +25,7 @@ class En extends Component {
           <div className="right">
             <h1>Hola, soy Karen Ibarra</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              iaculis facilisis erat vitae blandit. Donec sed pharetra lectus,
-              in ultrices felis. Duis justo nunc, egestas non nisi dictum,
-              facilisis interdum quam. Nulla porta mattis erat. In elementum
-              sagittis velit. Praesent tincidunt pulvinar mollis.
+              ladklsakd;alk
             </p>
           </div>
         </div>
@@ -45,6 +39,7 @@ class En extends Component {
             Praesent tincidunt pulvinar mollis.
           </p>
         </div>
+      </div>
       </div>
     );
   }

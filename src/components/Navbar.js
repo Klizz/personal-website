@@ -6,7 +6,7 @@ import WorkIcon from "@material-ui/icons/Work";
 const Navbar = () => {
   return (
     <nav>
-      <div class="nav-wrapper red accent-1">
+      <div class="nav-wrapper teal darken-4">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <a href="/">

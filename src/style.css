@@ -17,3 +17,17 @@ body {
 .right-space {
     margin-right: 25px;
 }
+
+.fullscreen {
+    height: 100vh;
+    padding: 30px;
+}
+
+.hero {
+    margin-top: -50px;
+}
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 45px;
+    line-height: 45px;
+}
