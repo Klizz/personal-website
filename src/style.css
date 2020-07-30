@@ -1,33 +1,60 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .centered-content {
-    text-align: center;
+  text-align: center;
 }
 
 .centered-box {
-    margin: auto;
+  margin: auto;
 }
 
 .content {
-    width: 70%;
+  width: 70%;
 }
 
 .right-space {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .fullscreen {
-    height: 100vh;
-    padding: 30px;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
 }
 
 .hero {
-    margin-top: -50px;
+  margin-top: -60px;
+  height: 90vh;
+  padding: 30px;
+  margin-bottom: 60px;
 }
 
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 45px;
-    line-height: 45px;
+.red {
+  background-color: red;
+}
+
+.bottom-center {
+  text-align: center;
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+}
+
+.bottom-center a {
+    color: white;
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger,
+nav a.sidenav-trigger i {
+  height: 60px;
+  line-height: 60px;
 }

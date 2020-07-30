@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="centered-box centered-content content">
-        <h1>Choose your language</h1>
+        <h3>Select your language / Selecciona un idioma</h3>
         <a href="/es">
           <img
             src="https://image.flaticon.com/icons/svg/197/197397.svg"
