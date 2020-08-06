@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
-import Fab from "@material-ui/core/Fab";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 class En extends Component {
@@ -8,15 +7,17 @@ class En extends Component {
     return (
       <div>
         <section className="hero" id="top">
-          <h1>Hello, my name is Karen</h1>
-          <h3>Im a Web Developer Jr.</h3>
+          <h1>Hola, mi nombre Karen</h1>
+          <h3>Soy Web Developer Jr.</h3>
           <a href="mailto:klizzy@hotmail.es">
             <Button variant="outlined">Contacto</Button>
           </a>
         </section>
         <div className="bottom-center">
-          <a href="#about" class="btn-floating btn-large pulse">
-            <KeyboardArrowDownIcon />
+          <a href="#about">
+            <button className="scroll">
+              <i class="large material-icons">expand_more</i>
+            </button>
           </a>
         </div>
 
@@ -25,6 +26,11 @@ class En extends Component {
             <h1>Hola, soy Karen Ibarra</h1>
             <p>ladklsakd;alk</p>
           </div>
+          <a href="#stack">
+            <button className="scroll">  
+              <i class="large material-icons">expand_more</i>
+            </button>
+          </a>
         </section>
 
         <section className="fullscreen" id="stack">
