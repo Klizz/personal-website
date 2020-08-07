@@ -6,16 +6,15 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-size: 8em;
+.hero-left {
+  width: 80%;
+  float: left;
 }
 
-h3 {
-  font-size: 5em;
-}
-
-p {
-  font-size: 2em;
+.hero-right {
+  padding-top: 10%;
+  width: 20%;
+  float: right;
 }
 
 .headline {
@@ -70,8 +69,8 @@ p {
   color: #FFF;
 }
 
-.red {
-  background-color: red;
+.highlight {
+  background-color: Coral;
 }
 
 .bottom-center {
@@ -90,4 +89,20 @@ p {
   height: 60px;
   width: 400px;
   color: white;
+}
+
+.logos {
+  height: 200px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.icon {
+  height: 60px;
+  margin: 40px;
+  color: white;
+}
+
+svg {
+  fill: currentColor;
 }
