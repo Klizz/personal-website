@@ -30,6 +30,11 @@ html {
   color: #FFF;
 }
 
+.scroll-2 {
+  margin-left: 40%;
+  color: #000;
+}
+
 .scroll:hover {
   opacity: .2;
   transition: .3s;
@@ -65,8 +70,9 @@ html {
     ),
     url(https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   height: 100vh;
-  padding: 30px;
+  padding: 20px;
   color: #FFF;
+  padding: 50px;
 }
 
 .highlight {
@@ -92,17 +98,25 @@ html {
 }
 
 .logos {
-  height: 200px;
+  max-height: 200px;
   margin-right: 40px;
   margin-top: 30px;
 }
 
+
+
+.about-img {
+  height: 200px;
+  width: auto;
+}
+
+.responsive-img {
+  margin-top: 150px;
+}
+
+
 .icon {
   height: 60px;
   margin: 40px;
-  color: white;
-}
-
-svg {
-  fill: currentColor;
-}
+  color: #FFF;
+ }

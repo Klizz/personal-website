@@ -1,36 +1,44 @@
 import React, { Component } from "react";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import MailIcon from '@material-ui/icons/Mail';
+import Typography from '@material-ui/core/Typography';
 
-class En extends Component {
+class Es extends Component {
   render() {
     return (
       <div>
         <section className="hero" id="top">
-          <div className="col s7 push-s5">
-          <h1 className="animate__animated animate__fadeInRight">
-            Hola, mi nombre es Karen
-          </h1>
-          <h3 className="animate__animated animate__fadeInRight animate__delay-2s">
-            Soy Web Developer Jr.
-          </h3>
+
+          <Typography className="animate__animated animate__fadeInRight" variant="h1" component="h2" gutterBottom>
+          Hola, mi nombre es Karen
+          </Typography>
+          <Typography className="animate__animated animate__fadeInRight animate__delay-2s" variant="h3" component="h2" gutterBottom>
+          Soy Web Developer Jr.
+          </Typography>
           <a
             href="mailto:klizzy@hotmail.es"
             className="animate__animated animate__fadeIn animate__delay-4s"
-          >
-          </a>
-          </div>
-          <div className="col s5 pull-s7">
+          ></a>
           <a href="mailto:klizzy@hotmail.es">
-            <img src="./icons/correo.svg" alt="mail" className="icon" />
+          <MailIcon 
+          className="icon"
+          fontSize="large"
+          />
           </a>
           <a href="https://github.com/Klizz">
-            <img src="./icons/imagen-de-github.svg" alt="github" className="icon" />
+          <GitHubIcon 
+          className="icon"
+          fontSize="large"
+          />
           </a>
           <a href="https://www.linkedin.com/in/karen-ibarra-662a94111/">
-            <img src="./icons/linkedin.svg" alt="linkedin" className="icon" />
+          <LinkedInIcon 
+          className="icon"
+          fontSize="large"
+          />
           </a>
-          </div>
         </section>
-
 
         <div className="bottom-center">
           <a href="#about">
@@ -43,7 +51,8 @@ class En extends Component {
         </div>
 
         <section className="fullscreen" id="about">
-          <div>
+          <div className="row">
+          <div className="col s12 m8 info">
             <h1 className="headline">Acerca de mí</h1>
             <p className="flow-text">
               Mi meta es convertirme en desarrolladora web.
@@ -54,21 +63,28 @@ class En extends Component {
               desarrollo FrontEnd, pero tampoco temo desarrollar BackEnd. <br />
             </p>
           </div>
-          <a href="#stack">
-            <button className="scroll">
-              <i class="large material-icons">expand_more</i>
-            </button>
-          </a>
+          <div className="col s12 m4">
+          <img
+              src="https://www.pinclipart.com/picdir/big/35-359998_transparent-background-pusheen-gif-clipart.png"
+              alt="pusheen"
+              className="responsive-img"
+            />
+          </div>
+          </div>
         </section>
 
         <section className="fullscreen" id="stack">
           <h1 className="headline">Tecnologías</h1>
           <p className="flow-text">
-            Estas son algunas de las tecnologías con las que he desarrollado
+            Estas son algunas de las tecnologías y lenguajes con las que he desarrollado
             proyectos: <br />
             <img src="./logos/html5.png" alt="html5" className="logos" />
             <img src="./logos/css3.png" alt="css3" className="logos" />
-            <img src="./logos/javascript.png" alt="javascript" className="logos" />
+            <img
+              src="./logos/javascript.png"
+              alt="javascript"
+              className="logos"
+            />
             <img src="./logos/python.png" alt="python" className="logos" />
             <br />
             <img src="./logos/reactjs.png" alt="reactjs" className="logos" />
@@ -80,4 +96,4 @@ class En extends Component {
   }
 }
 
-export default En;
+export default Es;
