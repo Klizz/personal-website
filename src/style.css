@@ -29,6 +29,9 @@ li {
   color: #DB162F;
 }
 
+.bold {
+  font-weight: bolder;
+}
 
 .highlight-text {
   color: #3B1F2B;
@@ -47,7 +50,7 @@ li {
 }
 
 .icon-color {
-  color: #3B1F2B;
+  color: #DB162F;
 }
 
 .scroll {
@@ -161,4 +164,8 @@ li {
   background-color: #3B1F2B;
   color: #FFF;
   padding-top: 50px;
+}
+
+#stack {
+  padding-top: 10px;
 }

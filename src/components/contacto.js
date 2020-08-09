@@ -83,11 +83,18 @@ export default function CustomizedDialogs(){
         </DialogTitle>
         <DialogContent dividers>
         <p className="flow-text">
-            Si necesitas contactarme a traves de Whatsapp mi numero es <span className="headline">826-108-45-96</span>
+            Si necesitas contactarme a través de Whatsapp mi número es  <span className="headline bold">826-108-45-96</span>
         </p>
         </DialogContent>
       </Dialog>
-
+      <div className="space"></div>
+        <h5>Este sitio fue hecho con</h5>
+        <ul>
+            <a href="https://reactjs.org/" className="nav" target="_blank"><li>React.js</li></a>
+            <a href="https://material-ui.com/" className="nav" target="_blank"><li>Material UI</li></a>
+            <a href="https://materializecss.com/" className="nav" target="_blank"><li>Materialize</li></a>
+            <li>Diseño: Karen Ibarra</li>
+        </ul>
       </div>
     );
 }
