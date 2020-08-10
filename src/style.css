@@ -114,12 +114,21 @@ li {
   background-color: Coral;
 }
 
+.grey-bg {
+  background-color: #F8F8F8;
+  padding: 20px;
+}
+
 .bottom-center {
   text-align: center;
   bottom: 20px;
   position: absolute;
   width: 100%;
   height: 10vh;
+}
+
+.margin-bottom {
+  margin-bottom: 25px;
 }
 
 .bottom-center a {

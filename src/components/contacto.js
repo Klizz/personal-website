@@ -8,7 +8,6 @@ import CloseIcon from '@material-ui/icons/Close';
 import Dialog from '@material-ui/core/Dialog';
 import MuiDialogTitle from '@material-ui/core/DialogTitle';
 import MuiDialogContent from '@material-ui/core/DialogContent';
-import MuiDialogActions from '@material-ui/core/DialogActions';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 
@@ -56,13 +55,6 @@ export default function CustomizedDialogs(){
         },
       }))(MuiDialogContent);
       
-      const DialogActions = withStyles((theme) => ({
-        root: {
-          margin: 0,
-          padding: theme.spacing(1),
-        },
-      }))(MuiDialogActions);
-
     return (
       <div className="container centered-content">
         <h1>¡Contáctame!</h1>
@@ -93,6 +85,7 @@ export default function CustomizedDialogs(){
             <a href="https://reactjs.org/" className="nav" target="_blank"><li>React.js</li></a>
             <a href="https://material-ui.com/" className="nav" target="_blank"><li>Material UI</li></a>
             <a href="https://materializecss.com/" className="nav" target="_blank"><li>Materialize</li></a>
+            <div className="space"></div>
             <li>Diseño: Karen Ibarra</li>
         </ul>
       </div>

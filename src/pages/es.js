@@ -29,6 +29,7 @@ class Es extends Component {
               <a href="#about" className="nav"><li>Sobre mí</li></a>
               <a href="#stack" className="nav"><li>Tecnologías</li></a>
               <a href="#contact" className="nav"><li>Contáctame</li></a>
+              <a href="/es/portfolio" className="nav"><li>Portafolio</li></a>
             </ul>
           </div>
           </div>
@@ -94,7 +95,7 @@ class Es extends Component {
               <Rating name="read-only" value={3} readOnly />
               <div className="space"></div>
               <li>JavaScript</li>
-              <Rating name="read-only" value={4} readOnly />
+              <Rating name="read-only" value={3.5} precision={0.5} readOnly />
               <div className="space"></div>
               <li>Python</li>
               <Rating name="read-only" value={2.5} precision={0.5} readOnly />
@@ -116,7 +117,7 @@ class Es extends Component {
               <Rating name="read-only" value={3} readOnly />
               <div className="space"></div>
               <li>NodeJS</li>
-              <Rating name="read-only" value={2.5} precision={0.5} readOnly />
+              <Rating name="read-only" value={2} readOnly />
               <div className="space"></div>
               <li>Material UI</li>
               <Rating name="read-only" value={2} readOnly />
