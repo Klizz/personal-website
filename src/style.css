@@ -1,13 +1,25 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-html {
+html, body {
+  height: 100vh;
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 li {
   font-size: 1.6em;
+}
+
+.snap-container {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 .hero-left {
@@ -22,11 +34,11 @@ li {
 }
 
 .space {
-  height: 30px;
+  height: 25px;
 }
 
 .headline {
-  color: #DB162F;
+  color: #db162f;
 }
 
 .bold {
@@ -34,23 +46,23 @@ li {
 }
 
 .highlight-text {
-  color: #3B1F2B;
+  color: #3b1f2b;
   font-weight: bold;
   font-size: 2em;
 }
 
 .nav {
-  color: #DBDFAC;
-  transition: .3s;
+  color: #dbdfac;
+  transition: 0.3s;
 }
 
 .nav:hover {
   text-decoration: underline;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .icon-color {
-  color: #DB162F;
+  color: #db162f;
 }
 
 .scroll {
@@ -59,7 +71,7 @@ li {
   background-color: transparent;
   border: none;
   transition: 1s;
-  color: #FFF;
+  color: #fff;
 }
 
 .scroll-2 {
@@ -68,8 +80,8 @@ li {
 }
 
 .scroll:hover {
-  opacity: .2;
-  transition: .3s;
+  opacity: 0.2;
+  transition: 0.3s;
 }
 .scroll:active {
   background-color: transparent;
@@ -91,12 +103,6 @@ li {
   margin-right: 25px;
 }
 
-.fullscreen {
-  height: 100vh;
-  width: 100%;
-  padding: 30px;
-}
-
 .hero {
   background-image: linear-gradient(
       to top,
@@ -106,7 +112,7 @@ li {
     url(https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   height: 100vh;
   padding: 20px;
-  color: #FFF;
+  color: #fff;
   padding: 50px;
 }
 
@@ -115,8 +121,9 @@ li {
 }
 
 .grey-bg {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 20px;
+  overflow: scroll;
 }
 
 .bottom-center {
@@ -132,7 +139,7 @@ li {
 }
 
 .bottom-center a {
-    color: white;
+  color: white;
 }
 
 .contacto {
@@ -159,19 +166,19 @@ li {
 .icon {
   height: 60px;
   margin: 40px;
-  color: #FFF;
-  transition: .3s;
- }
+  color: #fff;
+  transition: 0.3s;
+}
 
 .icon:hover {
-  opacity: .2;
-  transition: .3s;
+  opacity: 0.2;
+  transition: 0.3s;
 }
 
 .contact-section {
   height: 100vh;
-  background-color: #3B1F2B;
-  color: #FFF;
+  background-color: #3b1f2b;
+  color: #fff;
   padding-top: 50px;
 }
 

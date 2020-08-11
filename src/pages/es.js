@@ -5,12 +5,13 @@ import BuildIcon from '@material-ui/icons/Build';
 import CodeIcon from '@material-ui/icons/Code';
 import LaptopChromebookIcon from '@material-ui/icons/LaptopChromebook';
 import Contacto from '../components/contacto';
-import BackToTop from '../components/BackToTop'
+import '../../src/style.css'
+
 
 class Es extends Component {
   render() {
     return (
-      <div>
+      <div className="snap-container">
         <section className="hero" id="top">
 
           <div className="row">
@@ -46,7 +47,7 @@ class Es extends Component {
           </a>
         </div>
 
-        <section className="fullscreen" id="about">
+        <section id="about">
           <div className="row">
           <div className="col s12 m8 info">
             <h1 className="headline">Acerca de mí</h1>
@@ -73,7 +74,7 @@ class Es extends Component {
           </div>
         </section>
         <div className="space"></div>
-        <section className="container centered-content" id="stack">
+        <section className="container centered-content snap" id="stack">
           <h1 className="headline">Tecnologías</h1>
           <div className="space"></div>
           <div className="row">
@@ -159,7 +160,6 @@ class Es extends Component {
         <section className="contact-section" id="contact">
           <Contacto />
         </section>
-        <BackToTop />
       </div>
     );
   }

@@ -56,7 +56,7 @@ export default function CustomizedDialogs(){
       }))(MuiDialogContent);
       
     return (
-      <div className="container centered-content">
+      <div className="container centered-content hidden">
         <h1>¡Contáctame!</h1>
         <a href="https://github.com/Klizz">
           <GitHubIcon className="icon" fontSize="large" />
