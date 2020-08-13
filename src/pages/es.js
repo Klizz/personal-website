@@ -3,6 +3,7 @@ import Contacto from '../components/contacto';
 import BackToTop from '../components/BackToTop';
 import Stack from '../components/stack';
 import Hero from '../components/Hero';
+import About from '../components/About'
 import '../../src/style.css';
 
 
@@ -32,30 +33,18 @@ class Es extends Component {
         </div>
 
         <section id="about" className="container">
-          <div className="row">
-          <div className="col s12 m8">
-            <h1 className="headline">Acerca de mí</h1>
-            <p className="flow-text">
-              Mi nombre es Karen Ibarra y mi meta es convertirme en desarrolladora web.
-              <br />
-              Actualmente resido en la ciudad de <span className="headline">Monterrey, Nuevo León</span> y tengo
+          <About
+          title="Acerca de mí"
+          info="Mi nombre es Karen Ibarra y mi meta es convertirme en desarrolladora web.
+              Actualmente resido en la ciudad de Monterrey, Nuevo León y tengo
               interés en trabajar en empresas de esa ciudad o de manera remota
               en cualquier parte del mundo. Mi pasión está principalmente en el
-              desarrollo FrontEnd, pero tampoco temo desarrollar BackEnd. <br />
+              desarrollo FrontEnd, pero tampoco temo desarrollar BackEnd. 
               Soy una persona autodidacta y amante de la tecnología. Empecé practicando con 
-              HTML y CSS desde los 13 años y uso Linux desde 2011.<br />
+              HTML y CSS desde los 13 años y uso Linux desde 2011.
               Actualmente me desempeño como profesora de primaria, pero tengo un gran interés
-              en cambiar de carrera.
-            </p>
-          </div>
-          <div className="col s12 m4">
-          <img
-              src="https://www.pinclipart.com/picdir/big/35-359998_transparent-background-pusheen-gif-clipart.png"
-              alt="pusheen"
-              className="responsive-img"
-            />
-          </div>
-          </div>
+              en cambiar de carrera."
+           />
         </section>
         <div className="space"></div>
         <section className="container centered-content snap" id="stack">

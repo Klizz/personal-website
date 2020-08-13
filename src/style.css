@@ -13,6 +13,10 @@ section {
   position: relative;
 }
 
+.fullscreen {
+  height: 100vh;
+}
+
 .hero-left {
   width: 80%;
   float: left;
