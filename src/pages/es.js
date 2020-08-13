@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Typography from '@material-ui/core/Typography';
 import Contacto from '../components/contacto';
 import BackToTop from '../components/BackToTop';
 import Stack from '../components/stack';
+import Hero from '../components/Hero';
 import '../../src/style.css';
 
 
@@ -11,34 +11,20 @@ class Es extends Component {
     return (
       <div className="snap-container">
         <section className="hero" id="top">
-
-          <div className="row">
-          <div className="col s12 m9">
-          <Typography className="animate__animated animate__fadeInRight bold" variant="h1" component="h2" gutterBottom>
-          Hola, mi nombre es Karen
-          </Typography>
-          <Typography className="animate__animated animate__fadeInRight animate__delay-2s" variant="h3" component="h2" gutterBottom>
-          Soy Web Developer Jr.
-          </Typography>
-          </div>
-
-          <div className="col s12 m3 animate__animated animate__fadeIn animate__delay-3s hide-on-small-only">
-            <h4>Navegación</h4>
-            <ul>
-              <a href="#about" className="nav"><li>Sobre mí</li></a>
-              <a href="#stack" className="nav"><li>Tecnologías</li></a>
-              <a href="#contact" className="nav"><li>Contáctame</li></a>
-              <a href="/es/portfolio" className="nav"><li>Portafolio</li></a>
-            </ul>
-          </div>
-          </div>
-          
+          <Hero
+          headline1="Hola, soy Karen"
+          headline2="Soy Web Developer Jr."
+          navtitle="Navegación"
+          nav1="Sobre mi"
+          nav2="Tecnologías"
+          nav3="Contacto"
+          nav4="Portafolio"
+           />          
         </section>
 
         <div className="bottom-center">
           <a href="#about">
             <button className="scroll">
-              Ver mas
               <br />
               <i class="large material-icons">expand_more</i>
             </button>
