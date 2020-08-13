@@ -7,8 +7,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
     root: {
-      minWidth: 275,
-      minHeight: 250,
+      minWidth: 180,
+      minHeight: 300,
     },
     bullet: {
       display: "inline-block",
@@ -21,6 +21,9 @@ const useStyles = makeStyles({
     pos: {
       marginBottom: 12,
     },
+    content: {
+      height: 245,
+    }
   });
 
 const PortfolioCard = (props) => {
@@ -28,7 +31,7 @@ const PortfolioCard = (props) => {
     return (
         <div className="col s12 m4 margin-bottom">
           <Card className={classes.root} variant="outlined">
-            <CardContent>
+            <CardContent className={classes.content}>
                 <span className="highlight-text">{props.title}</span>
               <p>{props.text}</p>
             </CardContent>

@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import Typography from '@material-ui/core/Typography';
-import Rating from '@material-ui/lab/Rating';
-import BuildIcon from '@material-ui/icons/Build';
-import CodeIcon from '@material-ui/icons/Code';
-import LaptopChromebookIcon from '@material-ui/icons/LaptopChromebook';
 import Contacto from '../components/contacto';
-import '../../src/style.css'
+import BackToTop from '../components/BackToTop';
+import Stack from '../components/stack';
+import '../../src/style.css';
 
 
 class Es extends Component {
@@ -47,9 +45,9 @@ class Es extends Component {
           </a>
         </div>
 
-        <section id="about">
+        <section id="about" className="container">
           <div className="row">
-          <div className="col s12 m8 info">
+          <div className="col s12 m8">
             <h1 className="headline">Acerca de mí</h1>
             <p className="flow-text">
               Mi nombre es Karen Ibarra y mi meta es convertirme en desarrolladora web.
@@ -77,89 +75,22 @@ class Es extends Component {
         <section className="container centered-content snap" id="stack">
           <h1 className="headline">Tecnologías</h1>
           <div className="space"></div>
-          <div className="row">
-          <div className="col s12 m4 centered-content">
-          <CodeIcon 
-            className="icon-color"
-            fontSize="large"
-            />
-            <div className="space"></div>
-            <span className="highlight-text">Lenguajes:</span>
-            <ul>
-              <li>HTML5</li>
-              <Rating name="read-only" value={4.5} precision={0.5} readOnly />
-              <div className="space"></div>
-              <li>CSS3</li>
-              <Rating name="read-only" value={4} readOnly />
-              <div className="space"></div>
-              <li>Sass</li>
-              <Rating name="read-only" value={3} readOnly />
-              <div className="space"></div>
-              <li>JavaScript</li>
-              <Rating name="read-only" value={3.5} precision={0.5} readOnly />
-              <div className="space"></div>
-              <li>Python</li>
-              <Rating name="read-only" value={2.5} precision={0.5} readOnly />
-              <div className="space"></div>
-              <li>Ruby</li>
-              <Rating name="read-only" value={2} readOnly />
-              <div className="space"></div>
-            </ul>
-          </div>
-          <div className="col s12 m4 centered-content">
-          <LaptopChromebookIcon 
-            className="icon-color"
-            fontSize="large"
-            />
-            <div className="space"></div>
-            <span className="highlight-text">Frameworks y librerías:</span>
-            <ul>
-              <li>React.js</li>
-              <Rating name="read-only" value={3} readOnly />
-              <div className="space"></div>
-              <li>NodeJS</li>
-              <Rating name="read-only" value={2} readOnly />
-              <div className="space"></div>
-              <li>Material UI</li>
-              <Rating name="read-only" value={2} readOnly />
-              <div className="space"></div>
-              <li>Bootstrap</li>
-              <Rating name="read-only" value={3} readOnly />
-              <div className="space"></div>
-              <li>MaterializeCSS</li>
-              <Rating name="read-only" value={4} readOnly />
-              <div className="space"></div>
-            </ul>
-          </div>
-          <div className="col s12 m4 centered-content">
-            <BuildIcon 
-            className="icon-color"
-            fontSize="large"
-            />
-            <div className="space"></div>
-            <span className="highlight-text">Herramientas:</span>
-            <ul>
-              <li>Git</li>
-              <Rating name="read-only" value={2.5} precision={0.5} readOnly />
-              <div className="space"></div>
-              <li>GitHub</li>
-              <Rating name="read-only" value={2.5} precision={0.5} readOnly />
-              <div className="space"></div>
-              <li>Visual Studio Code</li>
-              <Rating name="read-only" value={3} readOnly />
-              <div className="space"></div>
-              <li>Terminal de Linux</li>
-              <Rating name="read-only" value={4} readOnly />
-              <div className="space"></div>
-            </ul>
-          </div>
-          </div>
+          <Stack
+          column1="Lenguajes:"
+          column2="Frameworks y librerías:"
+          column3="Herramientas"
+           />
         </section>
         <div className="space"></div>
         <div className="space"></div>
         <section className="contact-section" id="contact">
-          <Contacto />
+          <Contacto
+          title="Contáctame"
+          techused="Este sitio fue hecho con:"
+          design="Diseñado por: Karen Ibarra"
+           />
         </section>
+        <BackToTop />
       </div>
     );
   }

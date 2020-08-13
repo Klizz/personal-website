@@ -15,6 +15,7 @@ import IconButton from '@material-ui/core/IconButton';
 const styles = (theme) => ({
     root: {
       margin: 0,
+      width: 500,
       padding: theme.spacing(2),
     },
     closeButton: {
@@ -39,7 +40,7 @@ const DialogTitle = withStyles(styles)((props) => {
     );
   });
 
-export default function CustomizedDialogs(){
+export default function CustomizedDialogs(props){
     const [open, setOpen] = React.useState(false);
 
     const handleClickOpen = () => {
@@ -56,8 +57,8 @@ export default function CustomizedDialogs(){
       }))(MuiDialogContent);
       
     return (
-      <div className="container centered-content hidden">
-        <h1>¡Contáctame!</h1>
+      <footer className="container centered-content hidden">
+        <h1>{props.title}</h1>
         <a href="https://github.com/Klizz">
           <GitHubIcon className="icon" fontSize="large" />
         </a>
@@ -75,19 +76,19 @@ export default function CustomizedDialogs(){
         </DialogTitle>
         <DialogContent dividers>
         <p className="flow-text">
-            Si necesitas contactarme a través de Whatsapp mi número es  <span className="headline bold">826-108-45-96</span>
+          <span className="headline bold">826-108-45-96</span>
         </p>
         </DialogContent>
       </Dialog>
       <div className="space"></div>
-        <h5>Este sitio fue hecho con</h5>
+        <h5>{props.techused}</h5>
         <ul>
             <a href="https://reactjs.org/" className="nav" target="_blank"><li>React.js</li></a>
             <a href="https://material-ui.com/" className="nav" target="_blank"><li>Material UI</li></a>
             <a href="https://materializecss.com/" className="nav" target="_blank"><li>Materialize</li></a>
             <div className="space"></div>
-            <li>Diseño: Karen Ibarra</li>
+            <li>{props.design}</li>
         </ul>
-      </div>
+      </footer>
     );
 }
