@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Contacto from '../components/contacto';
 import BackToTop from '../components/BackToTop';
-import Stack from '../components/stack';
+import Stack from '../components/Stack';
 import Hero from '../components/Hero';
 import About from '../components/About'
 import '../../src/style.css';
-
 
 class Es extends Component {
   render() {
@@ -16,10 +15,13 @@ class Es extends Component {
           headline1="Hello, I'm Karen"
           headline2="I'm a Jr. Web Developer"
           navtitle="Navigation"
+          link="/en/portfolio"
           nav1="About me"
           nav2="Technologies"
           nav3="Contact"
           nav4="Portfolio"
+          nav5="Visit Spanish website"
+          lang="/es"
            />          
         </section>
 

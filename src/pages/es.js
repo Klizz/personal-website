@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Contacto from '../components/contacto';
 import BackToTop from '../components/BackToTop';
-import Stack from '../components/stack';
+import Stack from '../components/Stack';
 import Hero from '../components/Hero';
 import About from '../components/About'
 import '../../src/style.css';
@@ -16,10 +16,13 @@ class Es extends Component {
           headline1="Hola, soy Karen"
           headline2="Soy Web Developer Jr."
           navtitle="Navegación"
+          link="/es/portfolio"
           nav1="Sobre mi"
           nav2="Tecnologías"
           nav3="Contacto"
           nav4="Portafolio"
+          nav5="Visitar sitio en inglés"
+          lang="/en"
            />          
         </section>
 

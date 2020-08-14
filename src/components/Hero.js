@@ -19,7 +19,8 @@ const Hero = (props) => {
               <a href="#about" className="nav"><li>{props.nav1}</li></a>
               <a href="#stack" className="nav"><li>{props.nav2}</li></a>
               <a href="#contact" className="nav"><li>{props.nav3}</li></a>
-              <a href="/es/portfolio" className="nav"><li>{props.nav4}</li></a>
+              <a href={props.link} className="nav"><li>{props.nav4}</li></a>
+              <a href={props.lang} className="nav"><li>{props.nav5}</li></a>
             </ul>
           </div>
           </div>

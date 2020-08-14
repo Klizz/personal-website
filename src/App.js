@@ -4,6 +4,7 @@ import Es from "./pages/es";
 import En from "./pages/en";
 import Home from "./pages/home";
 import Portafolio from "./pages/portafolio";
+import Portfolio from "./pages/portfolio";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/es" component={Es} />
             <Route path="/es/portfolio" component={Portafolio} />
+            <Route path="/en/portfolio" component={Portfolio} />
             <Route path="/en" component={En} />
             <Route path="" component={NotFound} />
           </Switch>

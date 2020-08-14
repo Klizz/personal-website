@@ -37,10 +37,10 @@ const PortfolioCard = (props) => {
             </CardContent>
             <CardActions>
               <a href={props.link}>
-              <Button>Ver en GitHub</Button>
+              <Button>GitHub</Button>
               </a>
               <a href={props.demo}>
-              <Button variant={props.variant}>Demo en Codepen</Button>
+              <Button variant={props.variant}>Demo Codepen</Button>
               </a>
             </CardActions>
           </Card>
