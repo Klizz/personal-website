@@ -83,9 +83,9 @@ export default function CustomizedDialogs(props){
       <div className="space"></div>
         <h5>{props.techused}</h5>
         <ul>
-            <a href="https://reactjs.org/" className="nav" target="_blank"><li>React.js</li></a>
-            <a href="https://material-ui.com/" className="nav" target="_blank"><li>Material UI</li></a>
-            <a href="https://materializecss.com/" className="nav" target="_blank"><li>Materialize</li></a>
+            <a href="https://reactjs.org/" className="nav" ><li>React.js</li></a>
+            <a href="https://material-ui.com/" className="nav" ><li>Material UI</li></a>
+            <a href="https://materializecss.com/" className="nav" ><li>Materialize</li></a>
             <div className="space"></div>
             <li>{props.design}</li>
         </ul>
