@@ -37,13 +37,13 @@ class Es extends Component {
         <section id="about" className="container">
           <About
           title="About me"
-          info="My name is Karen Ibarra and my goal is to become a web developer. 
-          I am currently living in the city of Monterrey, Mexico and I'm interested on working for
-          businesses in my current city or remotely in any part of the world.
+          info="My name is Karen Ibarra and my goal is to become a successful web developer. 
+          I am currently living in the city of Monterrey, Mexico and I'm interested in working for
+          businesses in my current city or remotely.
           My passion is mainly in frontend, but I'm not afraid of developing backend. 
           I'm a self-teaching person and a tech lover. I started coding with
-          HTML since I was 13 years old and I'm a Linux user since 2011. I'm still not the greatest
-          programmer in the world, but I'm always doing my best to improve my coding skills"
+          HTML since I was 13 years old and I'm a Linux user since 2011. I still have a long way ahead of me, 
+          so I'm always doing my best to improve my coding skills"
            />
         </section>
         <div className="space"></div>

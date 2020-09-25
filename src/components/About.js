@@ -12,8 +12,8 @@ const About = (props) => {
           </div>
           <div className="col s12 m4">
           <img
-              src="https://www.pinclipart.com/picdir/big/35-359998_transparent-background-pusheen-gif-clipart.png"
-              alt="pusheen"
+              src="images/137904_xVLFcpIH.png"
+              alt="avatar"
               className="responsive-img"
             />
           </div>

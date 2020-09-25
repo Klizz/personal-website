@@ -25,7 +25,7 @@ const Portafolio = () => {
           title="React Movie"
           text="Proyecto conectado una API de internet para mostrar una base de datos de películas"
           link="https://github.com/Klizz/react-movie"
-          variant="disabled"
+          demo="https://vibrant-turing-473d00.netlify.app/"
         />
         <PortfolioCard
           title="Random Meal Generator"
