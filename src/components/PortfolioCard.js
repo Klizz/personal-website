@@ -29,7 +29,7 @@ const useStyles = makeStyles({
 const PortfolioCard = (props) => {
     const classes = useStyles();
     return (
-        <div className="col s12 m4 margin-bottom">
+        <div className="col-3 margin-bottom">
           <Card className={classes.root} variant="outlined">
             <CardContent className={classes.content}>
                 <span className="highlight-text">{props.title}</span>

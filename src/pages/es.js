@@ -10,7 +10,7 @@ class Es extends Component {
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 60,
+	            "value": 120,
 	            "density": {
 	                "enable": true,
 	                "value_area": 1500
@@ -25,13 +25,13 @@ class Es extends Component {
 	            "speed": 0.5
 	        },
 	        "size": {
-	            "value": 1
+	            "value": 1.2
 	        },
 	        "opacity": {
 	            "anim": {
 	                "enable": true,
 	                "speed": 1,
-	                "opacity_min": 0.9
+	                "opacity_min": 1
 	            }
 	        }
 	    },
@@ -53,8 +53,8 @@ class Es extends Component {
 	<div class="page-info">
       <h1 class="display-1">Karen Ibarra</h1>
       <h4>Web developer</h4>
-      <a href="portfolio.html"><button type="button" class="btn btn-outline-light btn-lg">Portafolio</button></a>
-      <a href="contact.html"><button type="button" class="btn btn-outline-light btn-lg">Contacto</button></a>
+      <a href="/portfolio"><button type="button" class="btn btn-outline-light btn-lg">Portafolio</button></a>
+      <a href="/contact"><button type="button" class="btn btn-outline-light btn-lg">Contacto</button></a>
     </div>
       </div>
     );
@@ -62,4 +62,3 @@ class Es extends Component {
 }
 
 export default Es;
-

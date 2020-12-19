@@ -8,10 +8,10 @@ const Portafolio = () => {
     <div className="container center-align grey-bg">
       <h1 className="headline">Portafolio</h1>
       <h4>Algunos ejemplos de proyectos que he realizado</h4>
-      <a href="/es">
-        <Button color="secondary" variant="contained" size="large">
+      <a href="/">
+        <button className="back">
           Página principal
-        </Button>
+        </button>
       </a>
       <div className="space"></div>
       <div className="row">
