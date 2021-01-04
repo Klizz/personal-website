@@ -1,11 +1,9 @@
 import React from "react";
 import PortfolioCard from "../components/PortfolioCard";
-import Button from "@material-ui/core/Button";
-
 
 const Portafolio = () => {
   return (
-    <div className="container center-align grey-bg">
+    <div className="container center-align">
       <h1 className="headline">Portafolio</h1>
       <h4>Algunos ejemplos de proyectos que he realizado</h4>
       <a href="/">

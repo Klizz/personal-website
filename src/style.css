@@ -36,6 +36,11 @@ html, body {
   margin: 0;
 }
 
+
+.insta:hover {
+  background-color: thistle;
+}
+
 .page-info {
   width: 100%;
   z-index: 10;
@@ -103,4 +108,52 @@ html, body {
 
 .margin-bottom {
   margin-bottom: 25px;
+}
+
+/* SOCIAL MEDIA ICONS */
+.email {
+  transition: 0.6s;
+  height: 100px;
+}
+
+.email:hover {
+  fill: #fcaf45;
+  transition: 0.4s;
+}
+
+.github {
+  transition: 0.6s;
+}
+
+.github:hover {
+  fill: #6e5494;
+  transition: 0.4s;
+}
+
+.instagram {
+  transition: 0.6s;
+}
+
+.instagram:hover {
+  fill: #e1306c;
+  transition: 0.4s;
+}
+
+.linkedin {
+  transition: 0.6s;
+}
+
+.linkedin:hover {
+  fill: #0072b1;
+  transition: 0.4s;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+svg {
+  width: 96px;
 }
